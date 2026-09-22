@@ -1,0 +1,29 @@
+# ==============================================================================
+# Advanced Topics in Deep Learning (ATDL) - Requirements Manifest
+# Knowledge Distillation with Ternary-Weight Quantization-Aware Training (QAT)
+# ==============================================================================
+
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical Computation & Scientific Imaging
+numpy>=1.24.0,<2.3.0
+matplotlib>=3.7.0
+pillow>=9.5.0
+
+# Dataset Management & Hugging Face Hub (Required for CIFARNet evaluation)
+datasets>=2.14.0
+huggingface-hub>=0.16.0
+pyarrow>=12.0.0
+fsspec[http]>=2023.6.0
+requests>=2.28.0
+
+# Progress Tracking & CLI Interface
+tqdm>=4.65.0
+
+# Interactive Jupyter / Notebook Runtime
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.20.0
+ipywidgets>=8.0.0

@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cpython / IPython checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Model Checkpoints & Large Data
+data/
+*.pth
+*.pt
+*.bin
+*.onnx
+checkpoints/
+results/
+external_images/
+
+# OS generated files
+.DS_Store
+Thumbs.db
